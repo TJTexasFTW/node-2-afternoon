@@ -142,7 +142,7 @@ In this step, we will create a controller that will handle the logic to create, 
 ### Instructions
 
 * Create a `controllers` folder in `server/`.
-* Create a `messages_controller` in `server/controllers/`.
+* Create a `messages_controller` (MISSING: .js file) in `server/controllers/`.
 * Open `server/controllers/messages_controller.js`.
 * Create an array to hold the messages.
 * Create a variable that will keep track of what `id` to assign to messages.
@@ -234,7 +234,7 @@ The `delete` method should delete a message using the value of `id` from the req
 ```js
 delete: (req, res) => {
   const deleteID = req.params.id;    
-  messageIndex = messages.findIndex(message => message.id == deleteID);
+  (MISSING: const) messageIndex = messages.findIndex(message => message.id == deleteID);
   messages.splice(messageIndex, 1);
   res.status(200).send(messages);
 }
