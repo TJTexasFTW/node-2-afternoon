@@ -387,7 +387,7 @@ In this step, we will test the API endpoints using `Postman` unit tests.
 * Open `Postman`.
 * Import the `postman_collection` into `Postman`.
 * Run the collection's tests.
-  * If all tests do not pass, revist previous steps.
+  * If all tests do not pass, revist (TYPO: Should be revisit) previous steps.
   * **TESTS WILL ONLY PASS IF THE 'MESSAGES' ARRAY IS EMPTY WHEN THE POSTMAN COLLECTION STARTS** Restart your server (the command is 'rs') to reset your array to empty before running the tests. 
 
 ### Solution

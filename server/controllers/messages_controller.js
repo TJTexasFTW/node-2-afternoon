@@ -37,7 +37,7 @@ module.exports = {
 
     }
 
-    }
+    };
 
 
 
@@ -48,7 +48,3 @@ module.exports = {
     //     res.status(200).send(message);
     //     id++;
     // }
-
-
-
-  };
